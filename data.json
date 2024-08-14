@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "email": "sathya@gmail.com",
+      "username": "sathya",
+      "password": "sathya"
+    },
+    {
+      "email": "vijay@gmail.com",
+      "username": "vijay",
+      "password": "viji12"
+    },
+    {
+      "email": "rama@gmail.com",
+      "username": "rama",
+      "password": "ram@123"
+    },
+    {
+      "email": "arun@gmail.com",
+      "username": "arun",
+      "password": "arun@123"
+    },
+    {
+      "email": "madhan@gmail.com",
+      "username": "madhan",
+      "password": "madhan"
+    },
+    {
+      "email": "ravi@gmail.com",
+      "username": "ravi",
+      "password": "ravi@123"
+    },
+    {
+      "email": "bharath1@gmail.com",
+      "username": "bharath",
+      "password": "bharath@123"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "teamname": "Development",
+      "members": [
+        "Alice",
+        "Bob",
+        "Charlie",
+        "Vinoth"
+      ]
+    },
+    {
+      "id": 3,
+      "teamname": "IT2",
+      "members": [
+        "Sathya",
+        "Ravi"
+      ]
+    },
+    {
+      "id": 4,
+      "teamname": "DC",
+      "members": [
+        "Alice",
+        "Bob",
+        "Charlie"
+      ]
+    },
+    {
+      "id": 6,
+      "teamname": "Admin2",
+      "members": [
+        "sathy",
+        "saravana",
+        "ajith"
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": 4,
+      "title": "hii",
+      "description": "hellog",
+      "team": "IT2",
+      "status": "open",
+      "assignee": "vjnrjg",
+      "reporter": "mkgjjj"
+    },
+    {
+      "id": 5,
+      "title": "mvnbm",
+      "description": "qwert",
+      "team": "IT2",
+      "status": "in-progress",
+      "assignee": "wer",
+      "reporter": "qswd"
+    }
+  ]
+}
