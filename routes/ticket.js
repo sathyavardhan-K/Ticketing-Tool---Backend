@@ -136,7 +136,7 @@ const updateTicket = (req, res) => {
 };
 
 const deleteTicket = (req, res) => {
-    const { id } = req.params;
+    const { id } = req.params; //Url :id
     const data = readData();
     const ticketIndex = data.tickets.findIndex(tic => tic.id === parseInt(id));
 
@@ -180,3 +180,4 @@ routerticket.put('/:id', updateTicket);
 routerticket.delete('/:id', deleteTicket);
 
 module.exports = routerticket;
+

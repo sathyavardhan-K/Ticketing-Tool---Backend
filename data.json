@@ -34,64 +34,108 @@
       "email": "bharath1@gmail.com",
       "username": "bharath",
       "password": "bharath@123"
+    },
+    {
+      "email": "nandha@gmail.com",
+      "username": "nandha",
+      "password": "1234567"
     }
   ],
   "teams": [
     {
       "id": 1,
-      "teamname": "Development",
+      "teamname": "IT Team",
       "members": [
-        "Alice",
-        "Bob",
-        "Charlie",
-        "Vinoth"
+        "Sathya",
+        "Vinoth",
+        "Madhan"
+      ]
+    },
+    {
+      "id": 2,
+      "teamname": "Admin Team",
+      "members": [
+        "Saravana",
+        "Subash"
       ]
     },
     {
       "id": 3,
-      "teamname": "IT2",
+      "teamname": "Consulting Team",
       "members": [
-        "Sathya",
-        "Ravi"
+        "Raj",
+        "Varma"
       ]
     },
     {
       "id": 4,
-      "teamname": "DC",
+      "teamname": "HR",
       "members": [
-        "Alice",
-        "Bob",
-        "Charlie"
+        "Venkat"
+      ]
+    },
+    {
+      "id": 5,
+      "teamname": "Managing Team",
+      "members": [
+        "Tharan",
+        "Hari"
       ]
     },
     {
       "id": 6,
-      "teamname": "Admin2",
+      "teamname": "Consulting",
       "members": [
-        "sathy",
-        "saravana",
-        "ajith"
+        "Nandha",
+        "Ram"
       ]
     }
   ],
   "tickets": [
     {
-      "id": 4,
-      "title": "hii",
-      "description": "hellog",
-      "team": "IT2",
+      "id": 1,
+      "title": "Lap Issue",
+      "description": "Lap is not Working",
+      "team": "IT Team",
       "status": "open",
-      "assignee": "vjnrjg",
-      "reporter": "mkgjjj"
+      "assignee": "Ram",
+      "reporter": "Sathya"
+    },
+    {
+      "id": 2,
+      "title": "Charger Issue",
+      "description": "Charger is not working to my laptop",
+      "team": "IT Team",
+      "status": "in-progress",
+      "assignee": "Vijay",
+      "reporter": "Arun"
+    },
+    {
+      "id": 3,
+      "title": "Payment Issue",
+      "description": "Amount is not credited to my account",
+      "team": "Admin Team",
+      "status": "resolved",
+      "assignee": "Bharath",
+      "reporter": "Ajay"
+    },
+    {
+      "id": 4,
+      "title": "ID Card Issue",
+      "description": "Lost my id card, ensure to give new id card",
+      "team": "HR",
+      "status": "closed",
+      "assignee": "Raji",
+      "reporter": "Selva"
     },
     {
       "id": 5,
-      "title": "mvnbm",
-      "description": "qwert",
-      "team": "IT2",
-      "status": "in-progress",
-      "assignee": "wer",
-      "reporter": "qswd"
+      "title": "Mic Issue",
+      "description": "In my laptop, mic is not working",
+      "team": "IT Team",
+      "status": "open",
+      "assignee": "Subramani",
+      "reporter": "Arun"
     }
   ]
 }

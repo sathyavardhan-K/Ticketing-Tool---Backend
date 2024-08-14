@@ -8,9 +8,9 @@ const dataFilePath = path.join(__dirname, '..', 'data.json'); // Adjust the path
 const readData = () => {
     if (!fs.existsSync(dataFilePath)) {
         const initialData = { teams: [] };
-        fs.writeFileSync(dataFilePath, JSON.stringify(initialData, null, 2));
+        fs.writeFileSync(dataFilePath, JSON.stringify(initialData, null, 2));  //JavaScript object or value to a JSON string
     }
-    return JSON.parse(fs.readFileSync(dataFilePath, 'utf8'));
+    return JSON.parse(fs.readFileSync(dataFilePath, 'utf8')); //JSON String to JS obj
 };
 
 const writeData = (data) => {

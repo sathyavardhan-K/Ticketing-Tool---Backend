@@ -8,7 +8,6 @@
   const ticketRoutes = require('./routes/ticket'); 
 
 
-
   const app = express();
   const port = 5000;
 
